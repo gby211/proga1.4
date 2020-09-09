@@ -1,6 +1,6 @@
 package ru.Zadanie_3;
 
-public abstract class Rectangle extends Shape {
+public class Rectangle extends Shape {
     protected double width;
     protected double length ;
     public Rectangle(){

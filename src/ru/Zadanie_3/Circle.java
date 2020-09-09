@@ -2,7 +2,7 @@ package ru.Zadanie_3;
 
 import java.math.*;
 
-public abstract class Circle extends Shape {
+public class Circle extends Shape {
     protected double radius;
 
     public Circle() {
@@ -45,6 +45,6 @@ public abstract class Circle extends Shape {
     public String toString() {
         return "Shape: circle, radius: " + this.radius + ", color: " + this.color;
     }
-
+    
  */
 }
