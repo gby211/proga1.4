@@ -30,7 +30,7 @@ public class Circle extends Shape {
     public void setRadius(double radius) {
         this.radius = radius;
     }
-/*
+
     @Override
     public double getArea() {
         return Math.PI * radius * radius;
@@ -45,6 +45,5 @@ public class Circle extends Shape {
     public String toString() {
         return "Shape: circle, radius: " + this.radius + ", color: " + this.color;
     }
-    
- */
+
 }

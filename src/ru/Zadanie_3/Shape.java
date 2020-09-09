@@ -5,9 +5,13 @@ public abstract class Shape {
     protected boolean filled;
 
     public Shape() {
-
+        this.color = "read";
+        this.filled = true;
     }
-    public Shape(String color,boolean filled) {
+
+    public Shape(String color, boolean filled) {
+        this.color = color;
+        this.filled = filled;
 
     }
 
@@ -34,6 +38,10 @@ public abstract class Shape {
                 ", filled=" + filled +
                 '}';
     }
+
+    public abstract double getArea();
+
+    public abstract double getPerimeter();
 }
 
 
