@@ -9,12 +9,12 @@ public class Zadanie_5_5 {
         int a = in.nextInt();
         System.out.println(rek(a));
     }
-    public static int rek(int a){
-        if (a<10){
+
+    public static int rek(int a) {
+        if (a < 10) {   // Базовый случай
             return a;
-        }
-        else {
-            return a%10+rek(a /10);
+        } else {   // Шаг рекурсии
+            return a % 10 + rek(a / 10);
         }
     }
 }

@@ -8,7 +8,7 @@ public class Zadanie_5_4 {
         System.out.println("Введите числа k и s");
         int a = in.nextInt();
         int b = in.nextInt();
-        System.out.println(rek5(0,0,a,b));
+        System.out.println(rek5(0, 0, a, b));
     }
 
     public static int rek5(int a, int b, int k, int s) {
@@ -22,7 +22,7 @@ public class Zadanie_5_4 {
         }
         int c = (a == 0 ? 1 : 0);
         int res = 0;
-        // Шаг рекурсии / рекурсивное условие
+        // Шаг рекурсии
         for (int i = c; i < 10; i++) {
             res += rek5(a + 1, b + i, k, s);
         }
