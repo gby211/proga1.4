@@ -1,4 +1,4 @@
-package ru.Zadanie_11;
+package ru.Zadanie_10_1;
 
 class MagicChair  implements Chair{
     public void doMagic(){

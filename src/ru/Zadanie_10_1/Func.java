@@ -1,4 +1,4 @@
-package ru.Zadanie_11;
+package ru.Zadanie_10_1;
 
 class FunctionalChair implements Chair {
     public int sum(int a, int b){
